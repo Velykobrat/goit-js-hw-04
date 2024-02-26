@@ -1,6 +1,3 @@
-
-//==========================-4_МОДУЛЬ-=======================
-
 function calcAverageCalories(days) {
   if (days.length === 0) {
     return 0; // Якщо масив порожній, повертаємо 0
@@ -15,7 +12,7 @@ function calcAverageCalories(days) {
   return totalCalories / days.length; // Повертаємо середнє значення калорій
 }
 
-//==========================================================
+
 
 console.log(
   calcAverageCalories([

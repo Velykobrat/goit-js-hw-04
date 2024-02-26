@@ -1,6 +1,3 @@
-
-//==========================-4_МОДУЛЬ-=======================
-
 const profile = {
   username: "Jacob",
   playTime: 300,
@@ -15,7 +12,7 @@ const profile = {
   }
 };
 
-//==========================================================
+
 
 console.log(profile.getInfo()); // "Jacob has 300 active hours!"
 

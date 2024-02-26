@@ -1,6 +1,3 @@
-
-//==========================-4_МОДУЛЬ-=======================
-
 function isEnoughCapacity(products, containerSize) {
     // Обчислюємо загальну кількість товарів в об'єкті products
     const totalProducts = Object.values(products).reduce((total, amount) => total + amount, 0);
@@ -9,7 +6,7 @@ function isEnoughCapacity(products, containerSize) {
     return totalProducts <= containerSize;
   }
 
-  //==========================================================
+
   
   console.log(
     isEnoughCapacity({ apples: 2, grapes: 3, carrots: 1 }, 8)
